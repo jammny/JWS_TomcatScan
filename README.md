@@ -8,4 +8,4 @@
 
 python3 JWS_TomcatScan.py 192.168.30.131:8080
 
-![截图](https://github.com/jammny/JWS_TomcatScan/blob/main/doc/put.jpg
+![截图](https://github.com/jammny/JWS_TomcatScan/blob/main/doc/put.jpg)
