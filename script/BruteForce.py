@@ -31,7 +31,7 @@ class Brute():
                     print(Fore.RED + '[+] Tomcat存在弱口令!（{}）'.format(password))
                     break
             if self.state == 0:
-                print(Fore.GREEN + '[-] 未检出出弱口令！')
+                print(Fore.GREEN + '[-] 不存在弱口令！')
         except:
             print(Fore.RED + '[-] 可能不存在弱口令！')
 
