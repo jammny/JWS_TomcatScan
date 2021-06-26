@@ -33,7 +33,7 @@ class Brute():
             if self.state == 0:
                 print(Fore.GREEN + '[-] 未检出出弱口令！')
         except:
-            print(Fore.RED + '[-] 无法与目标建立连接！')
+            print(Fore.RED + '[-] 可能不存在弱口令！')
 
 def run(host):
     main = Brute(host)
