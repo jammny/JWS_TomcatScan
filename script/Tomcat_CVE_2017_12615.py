@@ -22,9 +22,9 @@ class Scan():
                 print(Fore.RED + '[+] 存在Tomcat任意文件写入漏洞（CVE-2017-12615）！')
                 print(Fore.RED + '[+] 验证地址：http://' + self.host + '/{}.jsp'.format(num))
             else:
-                print(Fore.GREEN + '[-] 可能不存在Tomcat任意文件写入漏洞（CVE-2017-12615）！')
+                print(Fore.GREEN + '[-] 不存在Tomcat任意文件写入漏洞（CVE-2017-12615）！')
         except:
-            print(Fore.RED + '[-] 无法与目标建立连接！')
+            print(Fore.RED + '[-] 可能不存在Tomcat任意文件写入漏洞（CVE-2017-12615）！')
 
 def run(host):
     main = Scan(host)
